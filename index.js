@@ -1,10 +1,11 @@
-// function docCard(distance, adress, name, phone, availableSpots) {
-//     this.distance = distance;
-//     this.adress = adress;
-//     this.name = name;
-//     this.phone = phone;
-//     this.availableSpots = availableSpots;
-// }
+function docCard(longitude, latitude, name, adress, phone, availableSpots) {
+    this.longitude = longitude;
+    this.latitude = latitude;
+    this.name = name;
+    this.adress = adress;
+    this.phone = phone;
+    this.availableSpots = availableSpots;
+}
 
 function geoFindMe() {
     var output = document.getElementById("out");
