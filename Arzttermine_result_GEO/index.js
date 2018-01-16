@@ -1,8 +1,8 @@
-function docCard(longitude, latitude, name, adress, phone, availableSpots) {
+function docCard(longitude, latitude, name, address, phone, availableSpots) {
     this.longitude = longitude;
     this.latitude = latitude;
     this.name = name;
-    this.adress = adress;
+    this.address = address;
     this.phone = phone;
     this.availableSpots = availableSpots;
 }

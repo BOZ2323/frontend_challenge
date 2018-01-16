@@ -1,0 +1,89 @@
+body {
+    font: 14px/1.5 Roboto, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    padding-top: 30px;
+    background: #0090d6;
+    color: #ffffff;
+    min-height: 70px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+
+/*Doctors cards*/
+
+#doc-cards {
+    min-height: 40px;
+    border: 1px #0090d6;
+    padding: 0;
+    border: 1px solid #2196F3;
+    box-shadow: 1px 3px 1px #2196F3;
+    position: relative;
+    min-height: 150px;
+    padding-left: 120px;
+}
+
+#doc-cards h1 {
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+#doc-cards p {
+    font-size: 14px;
+}
+
+#doc-cards img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

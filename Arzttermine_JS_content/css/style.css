@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.outer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box {
+    padding: 0;
+    border: 1px solid #2196F3;
+    box-shadow: 1px 3px 1px #2196F3;
+    position: relative;
+    min-height: 150px;
+    padding-left: 120px;
+}
+
+.box__header {
+    background-color: lightblue;
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    padding: 0 1em;
+}
+
+.box__content {
+    text-align: center;
+    padding: 1em;
+}
+
+.box__content table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.box__content table tr:first-child {
+    background: lightblue;
+}
+
+.box__content table td {
+    border: 1px solid lightgrey;
+}
+
+.box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#doctors_card {
+    color: red;
+}
